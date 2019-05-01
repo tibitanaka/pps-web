@@ -12,6 +12,9 @@ $h1-font-size: $font-size-base * 2.2;
 body {
   padding-top: 3.5rem;
 }
+ol.breadcrumb {
+  margin-top: 20px;
+}
 div.jumbotron {
   background-image:url('../image/top.jpg');
   background-size:cover;
