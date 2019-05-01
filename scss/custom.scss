@@ -1,14 +1,23 @@
 // Custom.scss
 // Option A: Include all of Bootstrap
 
+// Bootstrap and its default variables
+@import "../node_modules/bootstrap/scss/bootstrap";
+
 // Your variable overrides
 //$body-bg: #000;
 //$body-color: #111;
+$h1-font-size: $font-size-base * 2.2;
 
 body {
   padding-top: 3.5rem;
 }
-
+div.jumbotron {
+  background-image:url('../image/top.jpg');
+  background-size:cover;
+  background-position:center;
+  color: $gray-100;
+}
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
@@ -24,5 +33,4 @@ body {
   }
 }
 
-// Bootstrap and its default variables
-@import "../node_modules/bootstrap/scss/bootstrap";
+
