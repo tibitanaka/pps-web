@@ -10,13 +10,17 @@
 $h1-font-size: $font-size-base * 2.2;
 
 body {
-  padding-top: 3.5rem;
+  padding-top: 4.0rem;
+}
+.navbar {
+  padding-top: 0.4rem;
+  padding-bottom: 0.2rem;
 }
 ol.breadcrumb {
   margin-top: 25px;
 }
 div.jumbotron {
-  background-image:url('../image/top.jpg');
+  background-image:url('http://www.asystems.kais.kyoto-u.ac.jp/welcomeimage.jpg');
   background-size:cover;
   background-position:center;
   color: $gray-100;
