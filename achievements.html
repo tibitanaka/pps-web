@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="ja">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -7,17 +7,19 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="scss/custom.css">
+    <link rel="stylesheet" href="css/jpn.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
 
-    <title>栽培システム学研究室</title>
+    <title>栽培システム学研究室 | 研究成果</title>
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <nav class="navbar navbar-expand-md navbar-light bg-white">
       <a class="navbar-brand" href="index.html">
-        <img src="image/kyoto-university-logo.png" width="36" height="36" alt="" style="vertical-align:unset;">
-        <div style="margin-left:10px; display:inline-block;">
-          <div style="font-size:8px;">京都大学大学院農学研究科農学専攻</div>
-          <span style="">栽培システム学研究室</span>
+        <img src="image/kyoto-university-logo.png" width="45" height="45" alt="" style="vertical-align:unset;">
+        <div class="ml-2 mr-3 d-inline-block" style="line-height:1.2em;">
+          <small>京都大学大学院農学研究科農学専攻</small>
+          <h3 class="mb-0">栽培システム学研究室</h3>
         </div>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,7 +29,7 @@
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">ホーム</a>
+            <a class="nav-link" href="index.html">ホーム <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="researches.html">研究内容</a>
@@ -36,7 +38,7 @@
             <a class="nav-link" href="members.html">メンバー紹介</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="achievements.html">研究成果 <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="achievements.html">研究成果</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contact.html">アクセス</a>
@@ -45,9 +47,9 @@
         <ul class="navbar-nav mr-sm-3">
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              言語：日本語
+              日本語
             </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
               <a class="dropdown-item" href="#">日本語</a>
               <a class="dropdown-item" href="#">English</a>
             </div>
@@ -57,16 +59,16 @@
     </nav>
 
     <main role="main">
+      <div id="carouselExampleSlidesOnly" class="carousel mb-4" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+              <img src="image/syouka2.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+      </div>
 
       <div class="container">
-        <nav aria-label="breadcrumb" class="d-none d-sm-none d-md-block">
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="index.html">ホーム</a></li>
-            <li class="breadcrumb-item active" aria-current="page">研究成果</li>
-          </ol>
-        </nav>
-
-        <h2 style="margin-top:30px;">研究成果</h2>
+        <h2>研究成果</h2>
         <br />
         <ul class="nav nav-tabs" id="myTab" role="tablist">
           <li class="nav-item">
@@ -320,19 +322,20 @@
             <p>２０１３年５月６日　稲村教授の弥生時代の水田の研究が<a href="http://sankei.jp.msn.com/west/west_life/news/130506/wlf13050612070014-n2.htm" target="_blank">産経ニュースの「萌える日本史講座」</a>に掲載されました。</p>
           </div>
         </div>
-        <br />
-        <hr />
       </div> <!-- /container -->
     </main>
 
-    <footer class="container">
-      <p>TEL/FAX　０７５－７５３－６４７３　〒６０６－８５０２　京都市左京区北白川追分町　農学・生命科学研究棟３階<br />
-      &copy; 2009, Laboratory of Plant Production Systems</p>
+    <footer class="footer mt-auto pb-4 pt-4">
+      <hr/>
+      <div class="container">
+        TEL/FAX　075-753-6473　〒606-8502　京都市左京区北白川追分町　農学・生命科学研究棟３階<br />
+        &copy; 2021, Laboratory of Plant Production Systems
+      </div>
     </footer>
 
     <!-- Optional JavaScript -->
     <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
-    <script src="node_modules/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
 
   </body>
 </html>

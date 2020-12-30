@@ -10,12 +10,12 @@
     <link rel="stylesheet" href="css/jpn.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
 
-    <title>栽培システム学研究室</title>
+    <title>栽培システム学研究室 | メンバー紹介</title>
   </head>
 
   <body>
     <nav class="navbar navbar-expand-md navbar-light bg-white">
-      <a class="navbar-brand py-1" href="index.html">
+      <a class="navbar-brand" href="index.html">
         <img src="image/kyoto-university-logo.png" width="45" height="45" alt="" style="vertical-align:unset;">
         <div class="ml-2 mr-3 d-inline-block" style="line-height:1.2em;">
           <small>京都大学大学院農学研究科農学専攻</small>
@@ -59,12 +59,18 @@
     </nav>
 
     <main role="main">
+      <div id="carouselExampleSlidesOnly" class="carousel mb-4" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+              <img src="image/syouka2.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+      </div>
 
       <div class="container">
 
-        <h2 style="margin-top:30px;">研究室メンバー紹介</h2>
-        <p>研究室所属の教官、学生、OB/OGをご紹介致します。</p>
-        <br />
+        <h2 class="mb-3">研究室メンバー紹介</h2>
+        <p class="mb-4">研究室所属の教官、学生、OB/OGをご紹介致します。</p>
         <ul class="nav nav-tabs" id="myTab" role="tablist">
           <li class="nav-item">
             <a class="nav-link active" id="teachers-tab" data-toggle="tab" href="#teachers" role="tab" aria-controls="teachers" aria-selected="true">教官</a>
@@ -82,8 +88,8 @@
         <div class="tab-content" id="myTabContent">
           <!-- 教官分 -->
           <div class="tab-pane fade show active" id="teachers" role="tabpanel" aria-labelledby="teachers-tab">
-            <h2>教授　稲村 達也 （いなむら たつや）</h2>
-            <p>E-mail: inamura@kais.kyoto-u.ac.jp</p>
+            <h3>教授　稲村 達也 （いなむら たつや）</h3>
+            <p>E-mail: <a href="mailto:inamura@kais.kyoto-u.ac.jp">inamura@kais.kyoto-u.ac.jp</a></p>
             <div class="row">
               <div class="col-md-4 text-center">
                 <img class="img-fluid" src="http://www.asystems.kais.kyoto-u.ac.jp/portrait_inamura.jpg" />
@@ -375,19 +381,19 @@
             <p>施肥と栽培法の違いが水稲の穎花生産におよぼす影響 </p>
           </div>
         </div>
-        <br />
-        <hr />
       </div> <!-- /container -->
     </main>
 
-    <footer class="container">
-      <p>TEL/FAX　０７５－７５３－６４７３　〒６０６－８５０２　京都市左京区北白川追分町　農学・生命科学研究棟３階<br />
-      &copy; 2009, Laboratory of Plant Production Systems</p>
+    <footer class="footer mt-auto pb-4">
+      <hr/>
+      <div class="container">
+        TEL/FAX　075-753-6473　〒606-8502　京都市左京区北白川追分町　農学・生命科学研究棟３階<br />
+        &copy; 2021, Laboratory of Plant Production Systems
+      </div>
     </footer>
-
     <!-- Optional JavaScript -->
     <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
-    <script src="node_modules/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
 
   </body>
 </html>
