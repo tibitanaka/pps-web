@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="ja">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -7,17 +7,18 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="scss/custom.css">
+    <link rel="stylesheet" href="css/jpn.min.css">
 
-    <title>栽培システム学研究室</title>
+    <title>栽培システム学研究室 | アクセス</title>
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <nav class="navbar navbar-expand-md navbar-light bg-white">
       <a class="navbar-brand" href="index.html">
-        <img src="image/kyoto-university-logo.png" width="36" height="36" alt="" style="vertical-align:unset;">
-        <div style="margin-left:10px; display:inline-block;">
-          <div style="font-size:8px;">京都大学大学院農学研究科農学専攻</div>
-          <span style="">栽培システム学研究室</span>
+        <img src="image/kyoto-university-logo.png" width="45" height="45" alt="" style="vertical-align:unset;">
+        <div class="ml-2 mr-3 d-inline-block" style="line-height:1.2em;">
+          <small>京都大学大学院農学研究科農学専攻</small>
+          <h3 class="mb-0">栽培システム学研究室</h3>
         </div>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,24 +31,24 @@
             <a class="nav-link" href="index.html">ホーム</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="researches.html">研究内容 <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="researches.html">研究内容</a>
           </li>
           <li class="nav-item">
-          <a class="nav-link" href="members.html">メンバー紹介</a>
+            <a class="nav-link" href="members.html">メンバー紹介</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="achievements.html">研究成果</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="contact.html">アクセス</a>
+            <a class="nav-link" href="contact.html">アクセス <span class="sr-only">(current)</span></a>
           </li>
         </ul>
         <ul class="navbar-nav mr-sm-3">
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              言語：日本語
+              <span class="d-inline d-md-none d-lg-inline">日本語</span>
             </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
               <a class="dropdown-item" href="#">日本語</a>
               <a class="dropdown-item" href="#">English</a>
             </div>
@@ -57,18 +58,19 @@
     </nav>
 
     <main role="main">
+      <div id="carouselExampleSlidesOnly" class="carousel mb-4" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+              <img src="image/syouka2.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+      </div>
 
       <div class="container">
-        <nav aria-label="breadcrumb" class="d-none d-sm-none d-md-block">
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="index.html">ホーム</a></li>
-            <li class="breadcrumb-item active" aria-current="page">アクセス</li>
-          </ol>
-        </nav>
 
-        <h2 style="margin-top:30px;">地図・連絡方法等</h2>
-        <p>地図、交通方法、連絡方法、研究室見学等のご案内です。</p>
-        <br />
+        <h2 class="mb-3">地図・連絡方法等</h2>
+        <p class="mb-4">地図、交通方法、連絡方法、研究室見学等のご案内です。</p>
+        <hr class="mb-4"/>
         <h3>所在地</h3>
         <p>
           〒６０６－８５０２<br />
@@ -124,7 +126,7 @@
 
     <!-- Optional JavaScript -->
     <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
-    <script src="node_modules/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
 
   </body>
 </html>
